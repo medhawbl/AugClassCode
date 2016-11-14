@@ -1,0 +1,8 @@
+write a java program to convert decimal numbr to binarynumber and print the binarydigits
+
+write a java program  to read given file and count number of sentences in the given file
+
+Write a java program that takes the below input and gives below output?
+input - {"cat","dog","text","book","plate","steal"}
+output- {{"cat","dog"},{"text","book"},{"plate","steal"}}
+
