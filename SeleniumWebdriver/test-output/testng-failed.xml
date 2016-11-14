@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserName" value="chrome"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.wbl.automation.ParallelTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.wbl.automation.ParallelTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test1(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.wbl.automation.ParallelTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.wbl.automation.ParallelTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

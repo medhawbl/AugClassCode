@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14171" started-at="2016-10-27T18:34:13Z" finished-at="2016-10-27T18:34:27Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="9666" started-at="2016-10-27T18:34:13Z" finished-at="2016-10-27T18:34:23Z">
+      <class name="com.wbl.automation.ParallelTest">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.wbl.automation.ParallelTest@be83e4]" name="test" duration-ms="9642" started-at="2016-10-27T11:34:13Z" finished-at="2016-10-27T11:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.wbl.automation.ParallelTest -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="14171" started-at="2016-10-27T18:34:13Z" finished-at="2016-10-27T18:34:27Z">
+      <class name="com.wbl.automation.ParallelTest">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:com.wbl.automation.ParallelTest@120ebad]" name="test" duration-ms="14150" started-at="2016-10-27T11:34:13Z" finished-at="2016-10-27T11:34:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.wbl.automation.ParallelTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
